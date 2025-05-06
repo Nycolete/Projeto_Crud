@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro de Associado – Calcinha Preta</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <script src="rota.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>✨ Cadastro de Associado ✨</h1>
+        <p>Faça parte do fã clube My Little Pony e seja uma pegasisters! 🦄</p>
+
+        <img src="mylittlepony.jpg" class="banner">
+
+        <form id="formAssociado">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <div class="button-group">
+                <button id="btnCadastrar" type="button">Cadastrar</button>
+                <button id="btnAtualizar" type="button">Atualizar</button>
+                <button id="btnApagar" type="button">Deletar</button>
+                <button id="btnBuscar" type="button">Pesquisar</button>
+            </div>
+        </form>
+
+        <div id="mensagem"></div>
+    </div>
+
+</body>
+</html>
